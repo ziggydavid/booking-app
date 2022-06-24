@@ -1,15 +1,16 @@
 import { Routes, Route, Link } from "react-router-dom";
 
 import Home from "./pages/home/Home";
-import List from "./pages/hotels/List";
-
+import List from "./pages/apartments/List";
+import Ap from "./pages/apartment/Ap";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Hotels" element={<List />} />
+        <Route path="/apartments" element={<List />} />
+        <Route path="/apartment/:id" element={<Ap />} />
       </Routes>
     </div>
   );
