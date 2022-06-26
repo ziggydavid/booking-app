@@ -1,6 +1,81 @@
-header{
+.header{
     background-color: cadetblue;
+    background-image: url('../img/13502802734_2e87342118_o.jpg');
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid coral;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerDesc{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    background-color: rgb(234, 131, 94);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+
+}
+.headerIcon{
+    color: grey;
+}
+.headerSearchText{
+    color: rgb(215, 209, 209);
+    font: 0.9em sans-serif;
+    
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.date{
+    position: absolute;
+    top: 50px;
 }

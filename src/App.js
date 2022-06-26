@@ -3,8 +3,9 @@ import Home from "./pages/home/Home";
 import List from "./pages/apartments/List";
 import Ap from "./pages/apartment/Ap";
 import './assets/css/navbar.css'
-
-
+import './assets/css/header.css'
+import 'react-date-range/dist/styles.css'; 
+import 'react-date-range/dist/theme/default.css'; 
 
 function App() {
   return (
