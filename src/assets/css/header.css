@@ -110,3 +110,10 @@
     border: 2px solid #febb02;
     background-color: white;
 }
+
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}
+.optionCounterBtn{
+    cursor: pointer;
+}
