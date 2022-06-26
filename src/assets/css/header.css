@@ -62,8 +62,9 @@
     color: grey;
 }
 .headerSearchText{
-    color: rgb(215, 209, 209);
+    color: rgb(205, 197, 197);
     font: 0.9em sans-serif;
+    cursor: pointer;
     
 }
 .headerSearchItem{
@@ -78,4 +79,34 @@
 .date{
     position: absolute;
     top: 50px;
+}
+.options{
+    position: absolute;
+    top: 50px;
+    color: rgb(143, 137, 137);
+    font: 0.9em sans-serif;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.optionCount{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(118, 114, 114);
+    
+}
+
+.optionCounterBtn{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #febb02;
+    background-color: white;
 }
