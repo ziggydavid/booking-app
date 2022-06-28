@@ -1,6 +1,6 @@
-import React from 'react'
-
-import Header from '../../components/header/Header'
+import React from 'react';
+import Header from '../../components/header/Header';
+import Featured from '../../components/featured/Featured';
 
 
 
@@ -9,6 +9,10 @@ const Home = () => {
     <>
 
     <Header/>
+    <div className='homecon'>
+    <Featured/>
+
+    </div>
     </>
   )
 }
