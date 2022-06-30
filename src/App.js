@@ -5,6 +5,8 @@ import Ap from "./pages/apartment/Ap";
 import './assets/css/navbar.css'
 import './assets/css/header.css'
 import './assets/css/feature.css'
+import './assets/css/home.css'
+import './assets/css/pList.css'
 import 'react-date-range/dist/styles.css'; 
 import 'react-date-range/dist/theme/default.css'; 
 

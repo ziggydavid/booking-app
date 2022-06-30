@@ -1,0 +1,60 @@
+.homecon{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.homeTitle{
+    width: 1024px;
+    font-size: 20px;
+}
+
+.fA{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.fAItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fAimg{
+    width: 100%;
+    height: 200px;
+}
+.fAname{
+    font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+}
+.fAcity{
+    font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: #6b6b6b;
+}
+.fAprice{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.fArating> button{
+    background-color: #febb02;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.fArating > span {
+    font-size: 14px;
+}
