@@ -9,9 +9,11 @@ import PersonIcon from '@material-ui/icons/Person';
 import Navbar from '../../components/navbar/Navbar';
 import { DateRange } from 'react-date-range';
 import {format} from "date-fns"; 
+import { useNavigate } from 'react-router-dom';
 
 
 const Header = ({type}) => {
+  const [destination, setDestination] = useState("")
   const [showdate, setShowDate] = useState(false)
   const [date, setDate] = useState([
     {
@@ -33,6 +35,13 @@ const Header = ({type}) => {
         ...options, [option]: action == 'i' ? options[option] + 1 : options[option] - 1 
       })
     }
+
+    const navigate = useNavigate()
+
+    const handleSearch = () => {
+        navigate("/apartments", {state:{destination,date,options}})
+    }
+
   return (
     <div className='header'>
    
@@ -69,7 +78,7 @@ const Header = ({type}) => {
       <div className='headerSearch'>
         <div className='headerSearchItem'>
           <KingBedIcon className='headerIcon'/>
-          <input placeholder='Search for destinations' type='text' className='headerSearchInput'/>
+          <input placeholder='Search for destinations' type='text' className='headerSearchInput' onChange={e => setDestination(e.target.value)}/>
         </div>
  
       
@@ -118,7 +127,7 @@ const Header = ({type}) => {
 </div>)}
             </div>
             <div className='headerSearchItem'>
-       <button className='headerBtn' >Search </button>
+       <button className='headerBtn' onClick={() => handleSearch()} >Search </button>
         </div>
   </div></>
 }
