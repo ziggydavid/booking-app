@@ -10,6 +10,8 @@ import './assets/css/pList.css'
 import './assets/css/mailList.css'
 import './assets/css/footer.css'
 import './assets/css/list.css'
+import './assets/css/searchList.css'
+import './assets/css/apartment.css'
 import 'react-date-range/dist/styles.css'; 
 import 'react-date-range/dist/theme/default.css'; 
 
