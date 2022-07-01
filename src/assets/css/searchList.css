@@ -1,0 +1,115 @@
+.searchItem{
+    border: 1px solid #c6c6c6;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.slImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.slDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.slTitle{
+    font-size: 20px;
+    color: #19417e;
+}
+.slLocation{
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 18px;
+}
+.slAddress{
+    color: #0071c2;
+    font-weight: 600;
+}
+.slDistance{
+    margin-left: 10px;
+    text-align: left;
+}
+.slDetails{
+    flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+.slSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.slFeature{
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 18px;
+}
+.slCancelOp{
+    font-size: 12px;
+    font-weight: bold;
+    color: #008009;
+
+}
+.slCancelOpSubtitle{
+    font-size: 12px;
+    color: #008009;
+}
+.slRating{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.rating{
+align-items: center;
+    background: #003580;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    min-width: 32px;
+    vertical-align: baseline;
+    width: 32px;
+}
+.slRating>span{
+font-weight: 500;
+}
+.slDetailText{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.slPrice{
+    font-size: 18px;
+    font-weight: 500;
+}
+.slTaxOp{
+    color:#6b6b6b;
+    font-size: 12px;
+}
+.slButton{
+    background-color: #0071c2;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slDetailText{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
